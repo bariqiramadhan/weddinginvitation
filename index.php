@@ -6,7 +6,7 @@
 	//require_once('_database.php');
 				
 	$expl = explode("/", strtolower($_SERVER["REQUEST_URI"]));
-	$flag = 0;
+	$flag = 1;
 
 	//session_start();
 
