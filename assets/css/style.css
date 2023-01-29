@@ -6653,9 +6653,17 @@ textarea.form-control {
     font-size: .9rem
   }
 
+  .gallery-scroller ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
   .gallery-scroller li {
-    width: 100%;
-    display: block;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: unset;
+    margin: 0;
   }
 
   .gallery-scroller.thumbs-lg li {

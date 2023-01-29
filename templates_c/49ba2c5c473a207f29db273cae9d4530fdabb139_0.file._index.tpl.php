@@ -1,4 +1,27 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 3.1.33, created on 2023-01-29 19:54:52
+  from 'D:\xampp\htdocs\weddinginvitation\templates\_index.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.33',
+  'unifunc' => 'content_63d66c9c2cc4b0_04215585',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '49ba2c5c473a207f29db273cae9d4530fdabb139' => 
+    array (
+      0 => 'D:\\xampp\\htdocs\\weddinginvitation\\templates\\_index.tpl',
+      1 => 1674979402,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_63d66c9c2cc4b0_04215585 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -12,22 +35,28 @@
 	<title>Anja & Sani</title>
 
 	<meta name="keywords"
-		content="">
-	<meta name="description" content="The Wedding of Anja & Sani">
-	<meta name="author" content="">
+		content="one-page, single page, multi-page, wedding template, retina ready, responsive, modern html5 template, bootstrap, css3, wedding, venue">
+	<meta name="description" content="Neela - Responsive One/Multi-Page Wedding HTML5 Template">
+	<meta name="author" content="Wisely Themes">
 
 	<!-- Mobile Meta Tag -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- Fav and touch icons -->
-	<link rel="icon" href="images/fav_touch_icons/favicon.ico" sizes="any">
-	<link rel="icon" href="images/fav_touch_icons/favicon.svg" type="image/svg+xml">
-	<link rel="apple-touch-icon" href="images/fav_touch_icons/apple-touch-icon-180x180.png">
-	<link rel="manifest" href="images/fav_touch_icons/manifest.json">
+	<link rel="icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/fav_touch_icons/favicon.ico" sizes="any">
+	<link rel="icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/fav_touch_icons/favicon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/fav_touch_icons/apple-touch-icon-180x180.png">
+	<link rel="manifest" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/fav_touch_icons/manifest.json">
 
 	<!-- IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
-	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+	  <?php echo '<script'; ?>
+ src="http://html5shim.googlecode.com/svn/trunk/html5.js"><?php echo '</script'; ?>
+> 
 	<![endif]-->
 
 	<!-- Google Web Fonts -->
@@ -39,25 +68,32 @@
 	</noscript>
 
 	<!-- Bootstrap CSS -->
-	<link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/css/bootstrap.min.css" rel="stylesheet" />
 
 	<!-- FontAwesome CSS -->
-	<link href="assets/css/fontawesome-all.min.css" rel="stylesheet" />
+	<link href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/css/fontawesome-all.min.css" rel="stylesheet" />
 
 	<!-- Neela Icon Set CSS -->
-	<link href="assets/css/neela-icon-set.css" rel="stylesheet" />
+	<link href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/css/neela-icon-set.css" rel="stylesheet" />
 
 	<!-- Owl Carousel CSS -->
-	<link href="assets/css/owl.carousel.min.css" rel="stylesheet" />
+	<link href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/css/owl.carousel.min.css" rel="stylesheet" />
 
 	<!-- Template CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" />
+	<link href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/css/style.css" rel="stylesheet" />
 
-	<link href="assets/css/animated.css" rel="stylesheet" />
-
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
 	<!-- Modernizr JS -->
-	<script src="assets/js/modernizr-3.6.0.min.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/modernizr-3.6.0.min.js"><?php echo '</script'; ?>
+>
 </head>
 
 <body>
@@ -90,19 +126,18 @@
 					<div class="col-sm-12">
 
 						<div class="hero-wrapper v-center">
-							<h2 class="animated delay-1s slow" id="ani1-1">Save the Date</h2>
+							<h2 data-animation-direction="fade" data-animation-delay="600">Save the Date</h2>
 
-							<h1 class="hero-title light animated delay-1s" id="ani1-2">
-								<span>Anja</span>
-								<small>&</small>
-								<span>Sani</span>
+							<h1 class="hero-title light ">
+								<span data-animation-direction="from-right" data-animation-delay="300">Anja</span>
+								<small data-animation-direction="from-top" data-animation-delay="300">&</small>
+								<span data-animation-direction="from-left" data-animation-delay="300">Sani</span>
 							</h1>
 
-							<div class="hero-subtitle light animated delay-1s" id="ani1-3">March
-								<span>4</span> 2023
-							</div>
+							<div class="hero-subtitle light" data-animation-direction="fade" data-animation-delay="1000">March
+								<span>4</span> 2023</div>
 
-							<div class="animated delay-1s" id="ani1-4">
+							<div data-animation-direction="fade" data-animation-delay="1000">
 								<a href="#rsvp" class="btn btn-light scrollto">RSVP</a>
 							</div>
 						</div>
@@ -118,29 +153,30 @@
 		<section id="about-us">
 			<div class="container">
 				<div class="row about-elems-wrapper">
-					<div class="element col-md-6 col-xl-4 offset-xl-2 animated" id="ani2-1">
+					<div class="element col-md-6 col-xl-4 offset-xl-2" data-animation-direction="from-left"
+						data-animation-delay="300">
 						<div class="image">
-							<img src="images/img-anja.jpg" alt="" width="600" height="714" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/groom.jpg" alt="" width="600" height="714" />
 							<div class="hover-info neela-style">
 								<div class="content">
-									<h3>Anjari Indriani Suryaputra<small>The 2nd Daughter of <br> (alm) Bapak Darwono Adjisurya <br> &amp;
-											<br> (alm) Ibu Nani Suryaningsih</small></h3>
+									<h3>Ahmad Sani Baagil<small>The 4th Son of <br> Bapak Ir. Hasyim Toriq <br> &amp; <br> Ibu Dr. Patria Vittarina S.</small></h3>
 								</div>
 							</div>
 						</div>
 					</div>
 
-					<div class="divider-about-us animated" id="ani2-3">
+					<div class="divider-about-us" data-animation-direction="fade" data-animation-delay="500">
 						<i class="icon-two-hearts"></i>
 					</div>
 
-					<div class="element col-md-6 col-xl-4 animated" id="ani2-2">
+					<div class="element col-md-6 col-xl-4" data-animation-direction="from-right" data-animation-delay="400">
 						<div class="image">
-							<img src="images/img-sani.jpg" alt="" width="600" height="714" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/bride.jpg" alt="" width="600" height="714" />
 							<div class="hover-info neela-style">
 								<div class="content">
-									<h3>Ahmad Sani Baagil<small>The 4th Son of <br> Bapak Ir. Hasyim Toriq <br> &amp; <br> Ibu Dr. Patria
-											Vittarina S.</small></h3>
+									<h3>Anjari Indriani Suryaputra<small>The 2nd Daughter of <br> Bapak (alm) Darwono Adjisurya <br> &amp; <br> Ibu (alm) Nani Suryaningsih</small></h3>
 								</div>
 							</div>
 						</div>
@@ -148,7 +184,8 @@
 				</div>
 
 				<div class="row">
-					<div class="about-us-desc col-lg-8 offset-lg-2 animated" id="ani2-4">
+					<div class="about-us-desc col-lg-8 offset-lg-2" data-animation-direction="from-bottom"
+						data-animation-delay="300">
 						<h3><small>We are</small>Getting Married</h3>
 						<p>Today and always, beyond tomorrow, I need you beside me, always as my best friend, lover and forever soul
 							mate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt porttitor venenatis.
@@ -156,14 +193,15 @@
 							sit amet sem eget, pellentesque euismod enim. Aenean quis nisl at est consequat elementum sed vel turpis.
 							Phasellus dignissim sit amet orci vitae mattis. Phasellus a imperdiet ligula, efficitur dignissim ex.
 							Mauris placerat aliquet sem commodo molestie.</p>
-						<img src="images/signature.png" alt="Anja & Sani">
+						<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/signature.png" alt="Anja & Sani">
 					</div>
 				</div>
 			</div>
 		</section>
 		<!-- END ABOUT US SECTION -->
 
-
+		
 
 		<!-- BEGIN THE WEDDING SECTION -->
 		<section id="the-wedding" class="parallax-background bg-color-overlay padding-divider-top section-divider-bottom-1">
@@ -172,13 +210,13 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="section-title light animated" id="ani3-1">Invitation</h1>
+						<h1 class="section-title light">Invitation</h1>
 					</div>
 				</div>
 
 				<div class="row">
 					<div class="col-md-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 center">
-						<div class="invite neela-style animated" id="ani3-2">
+						<div class="invite neela-style" data-animation-direction="from-left" data-animation-delay="100">
 							<div class="invite_title">
 								<div class="text">
 									Save<small>the</small>Date
@@ -190,8 +228,7 @@
 
 								<div class="uppercase">Request the honor of your presence on their wedding day</div>
 								<div class="date">March 4, 2023<small>at 03:00 pm</small></div>
-								<div class="uppercase">At Financial Hall, Jakarta<br>Jl. Jenderal Sudirman No.Kav 58, Jakarta Selatan
-								</div>
+								<div class="uppercase">At Financial Hall, Jakarta<br>Jl. Jenderal Sudirman No.Kav 58, Jakarta Selatan</div>
 
 								<h5>Reception to follow</h5>
 							</div>
@@ -208,7 +245,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h2 class="section-title animated" id="ani4-1">Location</h2>
+						<h2 class="section-title">Location</h2>
 					</div>
 				</div>
 			</div>
@@ -218,7 +255,7 @@
 					<div class="col-lg-12 col-xl-10 offset-xl-1">
 
 						<div class="map-info-container">
-							<div class="info-wrapper animated" id="ani4-3">
+							<div class="info-wrapper" data-animation-direction="from-bottom" data-animation-delay="100">
 								<div class="location-info">
 									<div class="neela-style">
 										<h4 class="has-icon"><i class="icon-diamond-ring"></i>Ceremony<small>03:00pm</small></h4>
@@ -234,7 +271,7 @@
 								</div>
 							</div>
 
-							<div class="map-wrapper animated" id="ani4-2">
+							<div class="map-wrapper" data-animation-direction="fade" data-animation-delay="100">
 								<iframe
 									src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2945060220823!2d106.80132232639275!3d-6.224845181081248!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f138c186cc9f%3A0xd87fd2828261b2a3!2sFinancial%20Hall%20by%20IKK%20Wedding%20Indonesia!5e0!3m2!1sen!2sid!4v1674975555046!5m2!1sen!2sid"
 									style="width: 100%; height: 90%; border:0;" allowfullscreen="" loading="lazy"
@@ -257,7 +294,7 @@
 		<section id="giftregistry" class="section-bg-color parallax-background">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 col-xl-6 animated" id="ani5-1">
+					<div class="col-md-8 col-xl-6">
 						<h2 class="section-title-lg uppercase desc"><small>Gift</small><strong>Registry</strong></h2>
 						<div class="section-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius ante libero,
 							amet as sollicitudin elit malesuada et. Nulla facilisi. Pellentesque magna diam, mattis gravida eget,
@@ -269,27 +306,29 @@
 					<div class="col-md-8 col-xl-6">
 						<ul class="wedding-gifts">
 
-							<li id="gift-list" class="ani5-2 animated">
+							<li id="gift-list" data-animation-direction="from-bottom" data-animation-delay="300">
 								<div class="neela-style">
 									<i class="icon-wedding"></i>
 									<h3>Check our<br>wedding gift list</h3>
 
 									<div class="info">
-										<a href="#" class="img"><img src="images/macys-logo.png" alt="Macy's" /></a>
-										<a href="#" class="img"><img src="images/bed-bath-beyond-logo.png" alt="Target" /></a>
+										<a href="#" class="img"><img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/macys-logo.png" alt="Macy's" /></a>
+										<a href="#" class="img"><img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/bed-bath-beyond-logo.png" alt="Target" /></a>
 									</div>
 								</div>
 							</li>
 
-							<li id="help-honeymoon" class="ani5-3 animated">
+							<li id="help-honeymoon" data-animation-direction="from-bottom" data-animation-delay="300">
 								<div class="neela-style">
 									<i class="icon-honeymoon"></i>
 									<h3>Contribute to our<br>dream honeymoon</h3>
 
 									<div class="info">
 										<h5 style="line-height: 1.5;">Bank Name
-											<br><strong>000xxxxxx</strong>
-											<br>Account Name
+										<br><strong>000xxxxxx</strong>
+										<br>Account Name
 										</h5><br>
 										<!-- <a href="#" class="btn btn-primary reverse">$50</a>
 										<a href="#" class="btn btn-primary reverse">$100</a>
@@ -314,7 +353,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12">
-						<h1 class="section-title animated" id="ani6-1">Wedding Gallery</h1>
+						<h1 class="section-title">Wedding Gallery</h1>
 					</div>
 				</div>
 			</div>
@@ -327,83 +366,99 @@
 					<ul>
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="images/wedding-gallery-1.JPG"
-									data-lightbox="WeddingPhotos" title="Wedding Photos">
+								<a class="btn btn-light btn-sm only-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-1.jpg" data-lightbox="WeddingPhotos"
+									title="Wedding Photos">
 									<i class="fa fa-link"></i>
 								</a>
 							</div>
-							<img src="images/wedding-gallery-1.JPG" alt="" width="380" height="380" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-1.jpg" alt="" width="380" height="380" />
 						</li>
 
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="images/wedding-gallery-4.JPG"
-									data-lightbox="WeddingPhotos" title="Wedding Photos">
+								<a class="btn btn-light btn-sm only-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-4.jpg" data-lightbox="WeddingPhotos"
+									title="Wedding Photos">
 									<i class="fa fa-link"></i>
 								</a>
 							</div>
-							<img src="images/wedding-gallery-4.JPG" alt="" width="380" height="380" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-4.jpg" alt="" width="380" height="380" />
 						</li>
 
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="images/wedding-gallery-3.JPG"
-									data-lightbox="WeddingPhotos" title="Wedding Photos">
+								<a class="btn btn-light btn-sm only-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-3.jpg" data-lightbox="WeddingPhotos"
+									title="Wedding Photos">
 									<i class="fa fa-link"></i>
 								</a>
 							</div>
-							<img src="images/wedding-gallery-3.JPG" alt="" width="380" height="380" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-3.jpg" alt="" width="380" height="380" />
 						</li>
 
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="images/wedding-gallery-4.JPG"
-									data-lightbox="WeddingPhotos" title="Wedding Photos">
+								<a class="btn btn-light btn-sm only-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-4.jpg" data-lightbox="WeddingPhotos"
+									title="Wedding Photos">
 									<i class="fa fa-link"></i>
 								</a>
 							</div>
-							<img src="images/wedding-gallery-6.JPG" alt="" width="380" height="380" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-6.jpg" alt="" width="380" height="380" />
 						</li>
 					</ul>
 					<ul>
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="images/wedding-gallery-5.JPG"
-									data-lightbox="WeddingPhotos" title="Wedding Photos">
+								<a class="btn btn-light btn-sm only-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-5.jpg" data-lightbox="WeddingPhotos"
+									title="Wedding Photos">
 									<i class="fa fa-link"></i>
 								</a>
 							</div>
-							<img src="images/wedding-gallery-10.JPG" alt="" width="380" height="380" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-10.jpg" alt="" width="380" height="380" />
 						</li>
 
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="images/wedding-gallery-6.jpg"
-									data-lightbox="WeddingPhotos" title="Wedding Photos">
+								<a class="btn btn-light btn-sm only-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-6.jpg" data-lightbox="WeddingPhotos"
+									title="Wedding Photos">
 									<i class="fa fa-link"></i>
 								</a>
 							</div>
-							<img src="images/wedding-gallery-2.JPG" alt="" width="380" height="380" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-2.jpg" alt="" width="380" height="380" />
 						</li>
 
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="images/wedding-gallery-7.JPG"
-									data-lightbox="WeddingPhotos" title="Wedding Photos">
+								<a class="btn btn-light btn-sm only-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-7.jpg" data-lightbox="WeddingPhotos"
+									title="Wedding Photos">
 									<i class="fa fa-link"></i>
 								</a>
 							</div>
-							<img src="images/wedding-gallery-7.JPG" alt="" width="380" height="380" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-7.jpg" alt="" width="380" height="380" />
 						</li>
 
 						<li>
 							<div class="hover-info">
-								<a class="btn btn-light btn-sm only-icon" href="images/wedding-gallery-8.JPG"
-									data-lightbox="WeddingPhotos" title="Wedding Photos">
+								<a class="btn btn-light btn-sm only-icon" href="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-8.jpg" data-lightbox="WeddingPhotos"
+									title="Wedding Photos">
 									<i class="fa fa-link"></i>
 								</a>
 							</div>
-							<img src="images/wedding-gallery-8.JPG" alt="" width="380" height="380" />
+							<img src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+images/wedding-gallery-8.jpg" alt="" width="380" height="380" />
 						</li>
 					</ul>
 				</div>
@@ -412,7 +467,7 @@
 		<!-- END GALLERY SECTION -->
 
 
-
+		
 
 
 		<!-- BEGIN CONTACTS SECTION -->
@@ -423,9 +478,9 @@
 					<div class="col-lg-10 offset-lg-1 col-xl-8 offset-xl-2  col-xxl-6 offset-xxl-3">
 
 						<div class="form-wrapper flowers neela-style">
-							<h1 class="section-title animated" id="ani7-1">Will you Attend?</h1>
+							<h1 class="section-title">Will you Attend?</h1>
 
-							<form id="form-rsvp" class="animated ani7-2" method="post" action="#">
+							<form id="form-rsvp" method="post" action="#">
 
 								<div class="form-floating">
 									<input type="text" name="Name" id="name" placeholder="Your Name*"
@@ -527,7 +582,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<div class="footer-logo animated" id="ani8-1">
+							<div class="footer-logo">
 								Anja<br>
 								<small>&</small><br>
 								Sani
@@ -540,7 +595,7 @@
 			<div class="copyright">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 animated" id="ani8-2">
+						<div class="col-sm-12">
 							Saturday, 4 March 2023<br>
 							Financial Hall, Jakarta
 						</div>
@@ -555,110 +610,99 @@
 
 
 	<!-- Libs -->
-	<script src="assets/js/jquery-3.6.0.min.js"></script>
-	<script src="assets/js/jquery-ui.min.js"></script>
-	<script src="assets/js/jquery-migrate-3.3.2.min.js"></script>
-	<script src="assets/js/bootstrap.bundle.min.js"></script>
-	<script src="assets/js/jquery.placeholder.min.js"></script>
-	<script src="assets/js/ismobile.js"></script>
-	<script src="assets/js/retina.min.js"></script>
-	<script src="assets/js/waypoints.min.js"></script>
-	<script src="assets/js/waypoints-sticky.min.js"></script>
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<script src="assets/js/lightbox.min.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/jquery-3.6.0.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/jquery-ui.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/jquery-migrate-3.3.2.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/bootstrap.bundle.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/jquery.placeholder.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/ismobile.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/retina.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/waypoints.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/waypoints-sticky.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/owl.carousel.min.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/lightbox.min.js"><?php echo '</script'; ?>
+>
 
 	<!-- Nicescroll script to handle gallery section touch swipe -->
-	<script src="assets/js/jquery.nicescroll.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/jquery.nicescroll.js"><?php echo '</script'; ?>
+>
 
 	<!-- Hero Background Slideshow Script -->
-	<script src="assets/js/jquery.zoomslider.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/jquery.zoomslider.js"><?php echo '</script'; ?>
+>
 
 	<!-- Template Scripts -->
-	<script src="assets/js/variables.js"></script>
-	<script src="assets/js/scripts.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/variables.js"><?php echo '</script'; ?>
+>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/scripts.js"><?php echo '</script'; ?>
+>
 
 	<!-- Google reCaptcha API -->
-	<!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+	<!-- <?php echo '<script'; ?>
+ src="https://www.google.com/recaptcha/api.js" async defer><?php echo '</script'; ?>
+> -->
 
-	<script src="assets/js/template.settings.js"></script>
+	<?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['base_url']->value;?>
+assets/js/template.settings.js"><?php echo '</script'; ?>
+>
 
-	<!-- Animasi -->
-	<style>
-		.animated {
-			opacity: 0;
-		}
-	</style>
 	
-	<script>
-
-		$(document).on('ready', function () {
-			var scrollY = $(window).scrollTop();
-
-			if (scrollY > ($('#ani1-1').offset().top - 500)) {
-				$('#ani1-1').addClass('fadeInDown');
-				$('#ani1-2').addClass('fadeInUp');
-				$('#ani1-3').addClass('fadeInUp');
-				$('#ani1-4').addClass('fadeInUp');
-				flag1 = 1;
-			}
-		});
-
-		$(window).scroll(function (event) {
-			var scrollY = $(window).scrollTop();
-
-			// animasi baris 2		
-			if (scrollY > ($('#ani2-1').offset().top - 500)) {
-				$('#ani2-1').addClass('fadeInLeft');
-			}
-			if (scrollY > ($('#ani2-2').offset().top - 500)) {
-				$('#ani2-2').addClass('fadeInRight');
-				$('#ani2-3').addClass('fadeIn delay-1s');
-			}
-			if (scrollY > ($('#ani2-4').offset().top - 500)) {
-				$('#ani2-4').addClass('fadeInUp');
+	<?php echo '<script'; ?>
+>
+		window.onload = function () {
+				var elements = document.querySelectorAll('[data-animation-direction]');
+				elements.forEach(function (element) {
+					var animationDirection = element.getAttribute('data-animation-direction');
+					var animationDelay = element.getAttribute('data-animation-delay');
+					element.classList.add(`animated`, `fadeIn${animationDirection}`, `delay-${animationDelay}s`);
+				});
 			}
 
-			// animasi baris 3	
-			if (scrollY > ($('#ani3-1').offset().top - 500)) {
-				$('#ani3-1').addClass('fadeInDown Slow');
-				$('#ani3-2').addClass('fadeInLeft');
-			}
-
-			// animasi baris 4
-			if (scrollY > ($('#ani4-1').offset().top - 500)) {
-				$('#ani4-1').addClass('fadeInUp Slow');
-				$('#ani4-2').addClass('fadeInLeft');
-			}
-			if (scrollY > ($('#ani4-3').offset().top - 500)) {
-				$('#ani4-3').addClass('fadeInUp');
-			}
-
-			// animasi baris 5
-			if (scrollY > ($('#ani5-1').offset().top - 500)) {
-				$('#ani5-1').addClass('fadeInUp');
-				$('.ani5-2').addClass('fadeInUp slow');
-				$('.ani5-3').addClass('fadeInUp delay-1s');
-			}
-
-			// animasi baris 6
-			if (scrollY > ($('#ani6-1').offset().top - 500)) {
-				$('#ani6-1').addClass('fadeInDown');
-			}
-
-			// animasi baris 7
-			if (scrollY > ($('#ani7-1').offset().top - 500)) {
-				$('#ani7-1').addClass('fadeInLeft');
-				$('.ani7-2').addClass('fadeInUp delay-1s');
-			}
-
-			// animasi baris 8
-			if (scrollY > $('#ani8-1').offset().top + $('#ani8-1').outerHeight() - window.innerHeight) {
-				$('#ani8-1').addClass('fadeIn');
-				$('#ani8-2').addClass('fadeInRight');
-			}
-		});
-	</script>
-
+	<?php echo '</script'; ?>
+>
+	
 </body>
 
-</html>
+</html><?php }
+}
