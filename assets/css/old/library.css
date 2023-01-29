@@ -1,0 +1,84 @@
+
+@font-face {
+  font-family: 'NexaLight';
+  src: url('../font/NexaLight.eot?#iefix') format('embedded-opentype'),  url('../font/NexaLight.otf')  format('opentype'),
+	     url('../font/NexaLight.woff') format('woff'), url('../font/NexaLight.ttf')  format('truetype'), url('../font/NexaLight.svg#NexaLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'NexaBold';
+  src: url('../font/NexaBold.eot?#iefix') format('embedded-opentype'),  url('../font/NexaBold.otf')  format('opentype'),
+	     url('../font/NexaBold.woff') format('woff'), url('../font/NexaBold.ttf')  format('truetype'), url('../font/NexaBold.svg#NexaBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BrandonGrotesque-Medium';
+  src: url('../font/BrandonGrotesque-Medium.eot?#iefix') format('embedded-opentype'),  url('../font/BrandonGrotesque-Medium.otf')  format('opentype'),
+       url('../font/BrandonGrotesque-Medium.woff') format('woff'), url('../font/BrandonGrotesque-Medium.ttf')  format('truetype'), url('../font/BrandonGrotesque-Medium.svg#BrandonGrotesque-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CaviarDreams';
+  src: url('../font/CaviarDreams.eot?#iefix') format('embedded-opentype'),  url('../font/CaviarDreams.woff') format('woff'), url('../font/CaviarDreams.ttf')  format('truetype'), url('../font/CaviarDreams.svg#CaviarDreams') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CaviarDreams-Bold';
+  src: url('../font/CaviarDreams-Bold.eot?#iefix') format('embedded-opentype'),  url('../font/CaviarDreams-Bold.woff') format('woff'), url('../font/CaviarDreams-Bold.ttf')  format('truetype'), url('../font/CaviarDreams-Bold.svg#CaviarDreams-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Comfortaa-Light';
+  src: url('../font/Comfortaa-Light.eot?#iefix') format('embedded-opentype'),  url('../font/Comfortaa-Light.woff') format('woff'), url('../font/Comfortaa-Light.ttf')  format('truetype'), url('../font/Comfortaa-Light.svg#Comfortaa-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.f-nexa-l {
+	font-family: 'NexaLight' !important;
+	font-weight: normal;
+  	font-style: normal;
+}
+
+.f-nexa-b {
+	font-family: 'NexaBold' !important;
+	font-weight: normal !important;
+  	font-style: normal !important;
+}
+
+.f-brandon-m {
+  font-family: 'BrandonGrotesque-Medium' !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+.f-caviar-l {
+  font-family: 'CaviarDreams' !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+.f-caviar-b {
+  font-family: 'CaviarDreams-Bold' !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}
+
+.f-comfortaa-l {
+  font-family: 'Comfortaa-Light' !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+}

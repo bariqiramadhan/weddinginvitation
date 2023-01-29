@@ -1,0 +1,169 @@
+@media only screen and (max-width: 600px){
+	.res-container {
+		height: 181px !important;
+	}
+
+	.res-section {
+		text-align: center !important;
+	}
+
+	.res-slider1 img {
+		height: auto !important;
+		width: 75% !important;
+		display: inline-block !important;
+	}
+
+	.res-youtube {
+		height: 215px !important;
+	}
+
+	.res-radius {
+		border: 6px solid #000 !important;
+		padding: 45px 17px !important;
+	}
+
+	.res-txtbox {
+		padding: 13px 27px !important;
+		margin-bottom: 20px !important;
+		border-radius: 6px !important;
+	}
+
+	.res-btnsend {
+		padding: 20px 0px !important;
+		font-size: 18px !important;
+		letter-spacing: 6px !important;
+	}
+
+	.res-konsul {
+		border-radius: 28px !important;
+		padding: 13px 40px !important;
+		margin-top: 20px !important;
+		margin-bottom: 20px !important;
+	}
+
+	.res-footer-icon {
+		width: 20% !important;
+	}
+
+	.res-footer-icon img {
+		width: 47px !important;
+	}
+
+	.res-footer-txt {
+		width: 80% !important;
+	}
+
+	.res-footer-title {
+		font-size: 18px !important;
+		line-height: 27px !important;
+		padding: 11px 0px 3px 0px !important;
+	}
+
+	.res-footer-sub {
+		font-size: 14px !important;
+		line-height: 19px !important;
+	}
+
+	.res-p-address {
+		padding-bottom: 45px !important;
+	}
+
+	.res-p-sosmed {
+		padding: 15px 0px 13px 0px !important;
+	}
+
+	.res-section-7 {
+		padding: 65px 0px 4px 0px !important;
+	}
+
+	.res-checkup {
+		padding: 45px 0px 20px 0px !important;
+	}
+
+	.res-section-2 {
+		padding: 40px 30px 80px 30px !important;
+	}
+
+	.w24 {
+		width: 24% !important;
+	}
+
+	.w90 {
+		width: 90% !important;
+		display: inline-block !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	.w100 {
+		width: 100% !important;
+	}
+
+	.f-12 {
+		font-size: 12px !important;
+		line-height: 18px !important;
+		padding-top: 13px !important;
+	}
+
+	.f-14 {
+		font-size: 14px !important;
+		line-height: 20px !important;	
+	}
+
+	.f-16 {
+		font-size: 16px !important;
+		line-height: 24px !important;	
+	}
+
+	.f-18 {
+		font-size: 18px !important;
+		line-height: 30px !important;	
+	}
+
+	.f-19 {
+		font-size: 19px !important;
+		line-height: 26px !important;	
+	}
+
+	.f-20 {
+		font-size: 20px !important;
+		line-height: 38px !important;
+		padding: 40px 30px !important;
+	}
+
+	.f-21 {
+		font-size: 21px !important;
+		line-height: 31px !important;
+	}
+
+	.f-22 {
+		font-size: 22px !important;
+		line-height: 26px !important;
+	}
+
+	.f-24 {
+		font-size: 24px !important;
+		line-height: 34px !important;	
+	}
+
+	.f-32 {
+		font-size: 32px !important;
+		line-height: 44px !important;	
+	}
+
+	.f-36 {
+		font-size: 40px !important;
+		line-height: 23px !important;
+	}
+
+	.f-40 {
+		font-size: 40px !important;
+		line-height: 48px !important;
+		top: -58px !important;
+	}
+
+	.f-65 {
+		font-size: 65px !important;
+		line-height: 51px !important;
+	}
+}
