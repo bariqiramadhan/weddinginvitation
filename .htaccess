@@ -3,7 +3,7 @@ RewriteEngine on
 RewriteCond $1 !^(index\.php|faveicon\.png|admin|beta|images|favicon\.png|lib/adodb5|jquery|jssor|video|assets|userfiles|admin|img|assets|webroot|image|themes|files|styles|scripts|css|fonts|js|libs|favicon\.png|lib/securimage|lib|)
 
 
-#RewriteRule ^(.*)$ /index.php?/$1 [L] 
+RewriteRule ^(.*)$ /index.php?/$1 [L] 
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f

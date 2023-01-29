@@ -11,7 +11,7 @@ $smarty->debugging = false;
 
 require_once('_database.php');
 
-$base_url = 'http://localhost/weddinginvitation/';
+$base_url = 'https://weddinginvitation.github.io/';
 $smarty->assign('base_url', $base_url);
 
 
