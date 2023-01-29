@@ -2422,10 +2422,10 @@ p.center {
   transform: scaleY(1)
 }
 
-.element .image:hover img {
+/* .element .image:hover img {
   webkit-filter: blur(4px) grayscale(80%) brightness(1.4);
   filter: blur(4px) grayscale(80%) brightness(1.4)
-}
+} */
 
 .divider-about-us {
   position: absolute;
