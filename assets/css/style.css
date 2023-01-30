@@ -51,6 +51,21 @@
   background-image: url("../../images/our-story-background-img.jpg")
 }
 
+.btn-music {
+  position: fixed;
+  left: 14px;
+  bottom: 15px;
+  background: transparent;
+  padding: 0;
+  border: 0;
+}
+.btn-music img {
+  transition: all 0.2s ease-out;
+}
+.btn-music:active img {
+  transform: scale(1.2);
+}
+
 @media (min--moz-device-pixel-ratio:1.3),
 (-o-min-device-pixel-ratio:2.6/2),
 (-webkit-min-device-pixel-ratio:1.3),
@@ -212,6 +227,9 @@ body {
   font-family: Poppins, sans-serif;
   font-size: 15px
 }
+body .lock {
+  overflow: hidden;
+}
 
 ::selection {
   background: #dbd093;
@@ -266,7 +284,7 @@ textarea {
   width: 100%;
   height: 100%;
   z-index: 1002;
-  text-align: center
+  text-align: center;
 }
 
 #preloader .preloader-title {
@@ -290,18 +308,39 @@ textarea {
   font-size: 12pt
 }
 
+#preloader .wrap-preloader {
+ position: absolute;
+ width: 100%;
+ top: 50%;
+  -webkit-transform: translate(0%, -50%);
+  -moz-transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+  -o-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+}
+
+#preloader .wrap-preloader .invite-name {
+  padding: 25px 0 17px;
+}
+#preloader .wrap-preloader .invite-name h6 {
+  font-family: "Playfair Display", serif;
+  color: #333333;
+  margin-bottom: 5px;
+  
+}
+#preloader .wrap-preloader .invite-name h5 {
+  color: #af9f46;
+}
+#preloader .wrap-preloader button {
+  background: #c9bd7d;
+  color: #fff;
+  border-radius: 6px;
+}     
+
 .loading-heart {
   fill: transparent;
   stroke: #dbd093;
   stroke-width: 11;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
   text-align: center;
   display: inline-block
 }

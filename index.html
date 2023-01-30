@@ -60,20 +60,27 @@
 	<script src="assets/js/modernizr-3.6.0.min.js"></script>
 </head>
 
-<body>
+<body class="lock">
 
 	<!-- BEGIN PRELOADER -->
 	<div id="preloader">
-		<div class="loading-heart">
-			<svg viewBox="0 0 512 512" width="100">
-				<path
-					d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
-			</svg>
-			<div class="preloader-title">
-				Anja<br>
-				<small>&</small><br>
-				Sani
+		<div class="wrap-preloader">
+			<div class="loading-heart">
+				<svg viewBox="0 0 512 512" width="100">
+					<path
+						d="M462.3 62.6C407.5 15.9 326 24.3 275.7 76.2L256 96.5l-19.7-20.3C186.1 24.3 104.5 15.9 49.7 62.6c-62.8 53.6-66.1 149.8-9.9 207.9l193.5 199.8c12.5 12.9 32.8 12.9 45.3 0l193.5-199.8c56.3-58.1 53-154.3-9.8-207.9z" />
+				</svg>
+				<div class="preloader-title">
+					Anja<br>
+					<small>&</small><br>
+					Sani
+				</div>
 			</div>
+			<div class="invite-name">
+				<h6>Dear,</h6>
+				<h5>Descia Anggi</h5>
+			</div>
+			<button class="btn" onclick="openInvitation();">Open Invitation</button>
 		</div>
 	</div>
 	<!-- END PRELOADER -->
@@ -90,7 +97,7 @@
 					<div class="col-sm-12">
 
 						<div class="hero-wrapper v-center">
-							<h2 class="animated delay-1s slow" id="ani1-1">Dear, Descia</h2>
+							<h2 class="animated delay-1s slow" id="ani1-1">Dear, Descia Anggi</h2>
 
 							<h1 class="hero-title light animated delay-1s" id="ani1-2">
 								<span>Anja</span>
@@ -99,7 +106,7 @@
 							</h1>
 
 							<div class="hero-subtitle light animated delay-1s" id="ani1-3">March
-								<span>4</span> 2023
+								<span>04</span> 2023
 							</div>
 
 							<div class="animated delay-1s" id="ani1-4">
@@ -120,11 +127,11 @@
 				<div class="row about-elems-wrapper">
 					<div class="element col-md-6 col-xl-4 offset-xl-2 animated" id="ani2-1">
 						<div class="image">
-							<img src="images/img-anja.jpg" alt="" width="600" height="714" />
+							<img src="images/img-anja-1-edited.jpg" alt="" width="600" height="714" />
 							<div class="hover-info neela-style">
 								<div class="content">
-									<h3>Anjari Indriani Suryaputra<small>The 2nd Daughter of <br> (alm) Bapak Darwono Adjisurya <br> &amp;
-											<br> (alm) Ibu Nani Suryaningsih</small></h3>
+									<h3>Anjari Indriani Suryaputri<small>The 4th Daughter of <br> Alm. Bapak Darwono Adjisurya <br> &amp;
+											<br> Almh. Ibu Nani Suryaningsih</small></h3>
 								</div>
 							</div>
 						</div>
@@ -136,10 +143,10 @@
 
 					<div class="element col-md-6 col-xl-4 animated" id="ani2-2">
 						<div class="image">
-							<img src="images/img-sani.jpg" alt="" width="600" height="714" />
+							<img src="images/img-sani-1-edited.jpg" alt="" width="600" height="714" />
 							<div class="hover-info neela-style">
 								<div class="content">
-									<h3>Ahmad Sani Baagil<small>The 4th Son of <br> Bapak Ir. Hasyim Toriq <br> &amp; <br> Ibu Dr. Patria
+									<h3>Ahmad Sani Baagil<small>The 2nd Son of <br> Bapak Ir. Hasyim Toriq <br> &amp; <br> Ibu Dr. Patria
 											Vittarina S.</small></h3>
 								</div>
 							</div>
@@ -192,12 +199,12 @@
 							<div class="invite_info">
 								<h2>Anja <small>&</small> Sani</h2>
 
-								<div class="uppercase">Request the honor of your presence on their wedding day</div>
-								<div class="date">March 4, 2023<small>at 03:00 pm</small></div>
+								<div class="uppercase">Request the honor of your presence on our wedding day</div>
+								<div class="date">March 4, 2023<small>at 07:00 pm</small></div>
 								<div class="uppercase">At Financial Hall, Jakarta<br>Jl. Jenderal Sudirman No.Kav 58, Jakarta Selatan
 								</div>
 
-								<h5>Reception to follow</h5>
+								<!-- 	 -->
 							</div>
 						</div>
 					</div>
@@ -225,13 +232,13 @@
 							<div class="info-wrapper animated" id="ani4-3">
 								<div class="location-info">
 									<div class="neela-style">
-										<h4 class="has-icon"><i class="icon-diamond-ring"></i>Ceremony<small>03:00pm</small></h4>
+										<!-- <h4 class="has-icon"><i class="icon-diamond-ring"></i>Ceremony<small>03:00pm</small></h4>
 										<h5>Financial Hall, Jakarta</h5>
 										<p>Jl. Jenderal Sudirman No.Kav 58, <br>Jakarta Selatan</p>
 
-										<div class="info-map-divider"></div>
+										<div class="info-map-divider"></div> -->
 
-										<h4 class="has-icon"><i class="icon-champagne-glasses"></i>Reception<small>05:30pm</small></h4>
+										<h4 class="has-icon"><i class="icon-champagne-glasses"></i>Reception<small>07:00 pm</small></h4>
 										<h5>Ballroom Financial Hall, 2nd Floor</h5>
 										<p>Jl. Jenderal Sudirman No.Kav 58, <br>Jakarta Selatan</p>
 									</div>
@@ -492,6 +499,13 @@
 		</section>
 		<!-- END CONTACTS SECTION -->
 
+		<audio id="myAudio" autoplay>
+			<source src="audio/love-song.mp3" type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
+		<button id="play-music" class="btn-music" onClick="cekSound();">
+			<img src="images/pause-play-button.png" alt="">
+		</button>
 
 		<!-- BEGIN FOOTER -->
 		<footer id="footer-onepage" class="bg-color">
@@ -557,17 +571,17 @@
 	
 	<script>
 
-		$(document).on('ready', function () {
-			var scrollY = $(window).scrollTop();
+		// $(document).on('ready', function () {
+		// 	var scrollY = $(window).scrollTop();
 
-			if (scrollY > ($('#ani1-1').offset().top - 500)) {
-				$('#ani1-1').addClass('fadeInDown');
-				$('#ani1-2').addClass('fadeInUp');
-				$('#ani1-3').addClass('fadeInUp');
-				$('#ani1-4').addClass('fadeInUp');
-				flag1 = 1;
-			}
-		});
+		// 	if (scrollY > ($('#ani1-1').offset().top - 500)) {
+		// 		$('#ani1-1').addClass('fadeInDown');
+		// 		$('#ani1-2').addClass('fadeInUp');
+		// 		$('#ani1-3').addClass('fadeInUp');
+		// 		$('#ani1-4').addClass('fadeInUp');
+		// 		flag1 = 1;
+		// 	}
+		// });
 
 		$(window).scroll(function (event) {
 			var scrollY = $(window).scrollTop();
@@ -623,6 +637,38 @@
 				$('#ani8-2').addClass('fadeInRight');
 			}
 		});
+
+		//Function for music background
+		function playItHere(e, link) {
+			var audio = document.createElement("audio");
+			var src = document.createElement("source");
+			src.src = link.href;
+			audio.appendChild(src);
+			audio.play();
+			e.preventDefault();
+		}
+
+		function cekSound() {
+			var obj = document.getElementById("myAudio");
+			if (obj.paused == false) {
+				obj.pause();
+				console.log('music paused');
+			} else {
+				obj.play();
+				console.log('music playing');
+			}
+		}
+
+		function openInvitation(){
+			$('body').removeClass('lock');
+			$('#preloader').slideUp();
+			cekSound();
+
+			$('#ani1-1').addClass('fadeInDown');
+			$('#ani1-2').addClass('fadeInUp');
+			$('#ani1-3').addClass('fadeInUp');
+			$('#ani1-4').addClass('fadeInUp');
+		}
 	</script>
 
 </body>
